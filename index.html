@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Rakhimov Diyor">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width">
+	<title>Главная</title>
+	<link rel="stylesheet" href="css/style.css">
+    <script src="js/login_modal_window.js" defer></script>
+</head>
+
+<body>
+<div class="wrapper">
+
+	<div class="header">
+		<div class="container">
+			<div class="header__row">
+				<a href="" class="header__logo"><img src="img/logo.png" alt=""></a>
+
+				<div id="header__login-section">
+					<div class="header__login-form">
+							<button id="btn_modal_window">Войти 🚪</button>
+							  <div id="my_modal" class="modal">
+								<div class="modal_content">
+								  <div class="modal-header">
+									<p>| Авторизация <span style="color:#b086ff">🔐</span></p>
+									<span class="close_modal_window">×</span>
+								  </div>
+								  <div class="modal-content">
+									<div class="login-form_wrapper">
+										<form method="POST">
+										  <input name="login" type="text" placeholder="Логин" autocomplete
+			="off" required>
+										  <input name="password" type="password" placeholder="Пароль" required>
+										  <input id="btn_modal_login" name="do_login" id="login_button" type="submit" value="Войти">
+										</form>
+									</div>
+								  </div>
+								</div>
+							  </div>
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+	<div class="main">
+
+		<div class="main__header">
+			<div class="main__first-bg-section">
+				<!--<div class="section-bg">
+					<img src="/img/bg_info_bar_top2.jpg" alt="">
+				</div>-->
+				<div class="section-time-board"></div>
+			</div>
+			<div class="main__second-bg-section">
+				<div class="reg_team_form">
+                    <form method="POST">
+                    	<input type="submit" name="reg_team" value="Зарегистрировать комаду">
+                    </form>
+                </div>
+			</div>
+		</div>
+
+		<div class="main__content">
+			<div class="container">
+
+				<div class="publication">
+					<div class="publication__header">
+						<div class="publication__title"></div>
+						<div class="publication__tools"></div>
+					</div>
+
+					<div class="publication__content">
+						<div class="publication__text"></div>
+						<div class="publication__img"></div>
+					</div>
+
+					<div class="publication__footer">
+						<div class="publication__underline"></div>
+						<div class="publication__viewes"></div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+
+	<div class="footer">
+
+	</div>
+
+</div>
+</body>
+
+</html>
